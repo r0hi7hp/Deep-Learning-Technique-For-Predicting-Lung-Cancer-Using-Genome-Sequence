@@ -38,8 +38,8 @@ python src/train.py [ARGUMENTS]
 | :--- | :--- | :--- |
 | `--data_path` | Path to the dataset CSV file. | `/content/Final.csv` |
 | `--model_type` | Model to train: `cnn` or `lstm`. | `cnn` |
-| `--epochs` | Number of training epochs. | `10` |
-| `--tune_epochs` | Number of epochs for hyperparameter tuning. | `5` |
+| `--epochs` | Number of training epochs. | `100` |
+| `--tune_epochs` | Number of epochs for hyperparameter tuning. | `15` |
 | `--max_trials` | Max trials for Keras Tuner. | `5` |
 | `--batch_size` | Batch size for training. | `64` |
 | `--output_dir` | Directory to save results (plots, reports). | `results` |
